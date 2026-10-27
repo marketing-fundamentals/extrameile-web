@@ -1,0 +1,73 @@
+{
+  "dependencies": {},
+  "onepage": {
+    "control": {
+      "marker": { "title": "Mono-Marke", "type": "text", "default": "02 · Unterstützung", "tab": "content", "group": "root" },
+      "headline": { "title": "H2", "type": "text", "default": "Wobei wir euch unterstützen", "tab": "content", "group": "root" },
+      "intro": { "title": "Intro", "type": "text", "default": "Gemeinsam wählen wir die Schwerpunkte, die zu euren Zielen und eurem Stundenrahmen passen.", "tab": "content", "group": "root" },
+      "anchorId": { "title": "Anker-ID", "type": "text", "default": "unterstuetzung", "tab": "settings", "group": "root" },
+      "openFirst": { "title": "Erste Zeile geöffnet starten", "type": "checkbox", "default": true, "tab": "settings", "group": "root" },
+      "fullHeight": { "title": "Full height", "type": "checkbox", "default": false, "tab": "layout", "group": "root" },
+
+      "services": {
+        "title": "Leistungen",
+        "type": "array",
+        "tab": "content",
+        "group": "services",
+        "items": {
+          "number": { "title": "Nummer", "type": "text", "default": "01" },
+          "title": { "title": "Titel", "type": "text", "default": "Social Media und Predigtinhalte" },
+          "lead": { "title": "Leitsatz", "type": "text", "default": "Eure Botschaft kann Menschen auch unter der Woche begleiten." },
+          "body": { "title": "Beschreibung", "type": "text", "default": "" }
+        },
+        "default": [
+          {
+            "number": "01",
+            "title": "Social Media und Predigtinhalte",
+            "lead": "Eure Botschaft kann Menschen auch unter der Woche begleiten.",
+            "body": "In Predigten, persönlichen Geschichten und eurem Gemeindeleben stecken Inhalte, die Menschen ansprechen. Wir helfen euch bei der Auswahl und bereiten daraus passende Beiträge vor: kurze Videos aus vorhandenen Predigtaufnahmen, Texte, Titel und Beschreibungen, Veranstaltungsankündigungen und einen Redaktionsplan für die nächsten Wochen."
+          },
+          {
+            "number": "02",
+            "title": "Veranstaltungen und Glaubenskurse",
+            "lead": "Macht eure Einladung über den Gemeindekreis hinaus bekannt.",
+            "body": "Wir unterstützen euch dabei, Menschen in eurer Umgebung anzusprechen. Dafür stimmen wir Botschaft, Inhalte und Einladungswege aufeinander ab. Das kann die Bewerbung eines Alpha Kurses, einer Veranstaltungsreihe oder eines besonderen Gottesdienstes sein."
+          },
+          {
+            "number": "03",
+            "title": "Website und Anmeldeseiten",
+            "lead": "Interessierten den nächsten Schritt leicht machen.",
+            "body": "Wir aktualisieren bestehende Seiten, überarbeiten Texte und bereiten Informationen zu euren Angeboten auf. Neue Websites und umfangreichere Anmeldestrecken planen wir als eigenes Vorhaben mit euch."
+          },
+          {
+            "number": "04",
+            "title": "Gestaltung und Vorlagen",
+            "lead": "Gute Grundlagen für Aufgaben, die immer wiederkommen.",
+            "body": "Wir entwickeln abgestimmte Vorlagen für Gottesdienste, Reihen und Veranstaltungen. So kann euer Team aktuelle Inhalte einsetzen und auf einer gemeinsamen Gestaltung aufbauen. Das spart Vorbereitungszeit und macht eure Kommunikation wiedererkennbar."
+          },
+          {
+            "number": "05",
+            "title": "KI und digitale Abläufe",
+            "lead": "Weniger Handgriffe bei wiederkehrenden Aufgaben.",
+            "body": "Wir schauen mit euch, wo digitale Werkzeuge konkret helfen können. Zum Beispiel beim Schreiben und Planen, beim Aufbereiten vorhandener Inhalte oder bei Bestätigungen und Erinnerungen nach einer Anmeldung. Wir richten passende Hilfen ein und üben die Anwendung mit eurem Team anhand eurer eigenen Aufgaben."
+          }
+        ]
+      },
+      "toggleLabelClosed": { "title": "Label geschlossen", "type": "text", "default": "Mehr anzeigen", "tab": "content", "group": "services" },
+      "toggleLabelOpen": { "title": "Label geöffnet", "type": "text", "default": "Weniger anzeigen", "tab": "content", "group": "services" },
+
+      "ctaLabel": { "title": "Beschriftung", "type": "text", "default": "Unterstützung besprechen", "tab": "content", "group": "cta" },
+      "ctaHref": { "title": "Anker / Link", "type": "text", "default": "#kontakt", "tab": "content", "group": "cta" },
+
+      "bgColor": { "title": "Hintergrund", "type": "color", "default": "#F1ECE1", "tab": "styles", "group": "style" },
+      "headlineColor": { "title": "Headline", "type": "color", "default": "#1E3B30", "tab": "styles", "group": "style" },
+      "accentColor": { "title": "Akzent (Nummern)", "type": "color", "default": "#C89A6B", "tab": "styles", "group": "style" },
+      "ruleColor": { "title": "Trennlinien", "type": "color", "default": "#E8E1D3", "tab": "styles", "group": "style" }
+    },
+    "group": {
+      "services": { "title": "Leistungen" },
+      "cta": { "title": "Abschlussbutton" },
+      "style": { "title": "Darstellung" }
+    }
+  }
+}

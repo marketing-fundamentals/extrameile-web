@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap');
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: 'Inter Tight', 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.22s ease, color 0.22s ease, border-color 0.22s ease, transform 0.22s ease;
+}
+
+.sm { font-size: 14.5px; padding: 10px 18px; }
+.md { font-size: 16px; padding: 14px 24px; }
+.lg { font-size: 17px; padding: 17px 30px; }
+
+.full { width: 100%; }
+
+.primary { background: #1E3B30; color: #F1ECE1; }
+.primary:hover { background: #142A22; }
+
+.secondary { background: transparent; color: #1E3B30; border-color: #1E3B3045; }
+.secondary:hover { border-color: #1E3B30; background: #E8E1D3; }
+
+.camel { background: #C89A6B; color: #142A22; }
+.camel:hover { background: #b98a5c; }
+
+.quiet { background: transparent; color: #1E3B30; padding-left: 0; padding-right: 0; }
+.quiet:hover { color: #C89A6B; }
+
+.arrow { width: 17px; height: 11px; flex: none; transition: transform 0.24s cubic-bezier(0.22, 1, 0.36, 1); }
+.btn:hover .arrow { transform: translateX(4px); }
+
+.btn:focus-visible { outline: 2px solid #C89A6B; outline-offset: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .btn, .arrow { transition: none; }
+  .btn:hover .arrow { transform: none; }
+}

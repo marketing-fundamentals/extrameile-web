@@ -1,0 +1,108 @@
+{
+  "dependencies": {},
+  "onepage": {
+    "control": {
+      "marker": { "title": "Mono-Marke", "type": "text", "default": "04 · Aus der Praxis", "tab": "content", "group": "root" },
+      "headline": { "title": "H2", "type": "text", "default": "Was wir bereits umgesetzt haben.", "tab": "content", "group": "root" },
+      "intro": { "title": "Intro", "type": "text", "default": "Unsere Arbeit reicht von regelmäßiger Gemeindekommunikation bis zur Bewerbung christlicher Veranstaltungen. Diese Projekte geben euch einen Einblick.", "tab": "content", "group": "root" },
+      "anchorId": { "title": "Anker-ID", "type": "text", "default": "praxis", "tab": "settings", "group": "root" },
+      "fullHeight": { "title": "Full height", "type": "checkbox", "default": false, "tab": "layout", "group": "root" },
+
+      "cases": {
+        "title": "Fallbeispiele",
+        "type": "array",
+        "tab": "content",
+        "group": "cases",
+        "items": {
+          "number": { "title": "Nummer", "type": "text", "default": "01" },
+          "title": { "title": "Projekt", "type": "text", "default": "" },
+          "subline": { "title": "Subline", "type": "text", "default": "" },
+          "tags": { "title": "Leistungsart", "type": "text", "default": "" },
+          "body": { "title": "Inhalt", "type": "text", "default": "" },
+          "contributionLabel": { "title": "Label Beitrag", "type": "text", "default": "Unser Beitrag" },
+          "contribution": { "title": "Unser Beitrag", "type": "text", "default": "" },
+          "resultsLabel": { "title": "Label Ergebnisse", "type": "text", "default": "Ergebnisse" },
+          "resultsPeriod": { "title": "Zeitraum", "type": "text", "default": "" },
+          "note": { "title": "Notiz", "type": "text", "default": "" },
+          "metrics": {
+            "title": "Kennzahlen",
+            "type": "array",
+            "items": {
+              "value": { "title": "Wert", "type": "text", "default": "" },
+              "label": { "title": "Label", "type": "text", "default": "" }
+            },
+            "default": []
+          },
+          "showArc": { "title": "Wegdetail zeigen", "type": "checkbox", "default": true }
+        },
+        "default": [
+          {
+            "number": "01",
+            "title": "Alpha Kurs · St. Matthäus Augsburg",
+            "subline": "Menschen außerhalb der Gemeinde zum Fragen einladen.",
+            "tags": "Anmeldeseiten · Videoinhalte · Anzeigen",
+            "body": "Für den Alpha Kurs haben wir eine digitale Kampagne mit unterschiedlichen Ansprachen entwickelt: für Menschen auf Sinnsuche, spirituell Interessierte und Menschen mit Fragen zu Jesus. Dazu entstanden drei zielgruppenspezifische Anmeldeseiten, Kurzvideos und Social-Media-Inhalte. Bezahlte Anzeigen liefen auf Facebook, Instagram, Google und YouTube.",
+            "contributionLabel": "Unser Beitrag",
+            "contribution": "Recherche, Kommunikationsstrategie, Anmeldeseiten, Videoinhalte, Kampagnenbetreuung und Auswertung.",
+            "resultsLabel": "Ergebnisse",
+            "resultsPeriod": "",
+            "metrics": [
+              { "value": "2.180", "label": "Klicks auf die Anmeldeseiten" },
+              { "value": "22", "label": "bestätigte Interessentenkontakte im ersten Durchgang" },
+              { "value": "16", "label": "davon direkte Online-Anmeldungen" }
+            ],
+            "note": "Laut Rückmeldung des Gemeindeteams kamen außerdem Menschen über YouTube zum Kurs, die sich vorher nicht online angemeldet hatten.",
+            "showArc": true
+          },
+          {
+            "number": "02",
+            "title": "Hope Tour",
+            "subline": "Eine Tour digital bekannt machen.",
+            "tags": "Tourwerbung · Media Buying",
+            "body": "Wir haben die Hope Tour bei der Bewerbung der Tour und durch Media Buying unterstützt.",
+            "contributionLabel": "Unser Beitrag",
+            "contribution": "Unser Beitrag umfasste die Unterstützung der Tourwerbung sowie die Planung und Buchung digitaler Werbeanzeigen. Damit haben wir daran mitgearbeitet, Menschen auf die Veranstaltungen aufmerksam zu machen.",
+            "resultsLabel": "Ergebnisse",
+            "resultsPeriod": "",
+            "metrics": [],
+            "note": "",
+            "showArc": true
+          },
+          {
+            "number": "03",
+            "title": "ICCC · Buch und Konferenz",
+            "subline": "Vom ersten Interesse zum weiteren Kontakt.",
+            "tags": "Landingpages · Anzeigen · E-Mail-Strecken",
+            "body": "Für ICCC haben wir digitale Projekte rund um das Buch „Unsere tägliche Arbeit“ und die Konferenz 2026 umgesetzt. Dazu gehörten Landingpages, bezahlte Werbekampagnen auf Meta und Google sowie automatisierte E-Mail-Strecken.",
+            "contributionLabel": "Unser Beitrag",
+            "contribution": "",
+            "resultsLabel": "Ergebnisse",
+            "resultsPeriod": "25. Juni bis 23. September 2026",
+            "metrics": [
+              { "value": "1,81 Mio.", "label": "Anzeigeneinblendungen" },
+              { "value": "41.392", "label": "Klicks" },
+              { "value": "311", "label": "neue Kontakte über Buch-, E-Book- und Veranstaltungsangebote" }
+            ],
+            "note": "In den neuen Kontakten enthalten sind 69 Veranstaltungsanfragen über das Formular.",
+            "showArc": true
+          }
+        ]
+      },
+
+      "closingTitle": { "title": "Abschluss-Headline", "type": "text", "default": "Diese Erfahrung bringen wir in eure Gemeinde ein.", "tab": "content", "group": "closing" },
+      "closingText": { "title": "Abschluss-Text", "type": "text", "default": "Ob ihr regelmäßig Unterstützung braucht oder ein konkretes Vorhaben plant: Wir schauen gemeinsam, welche Arbeit euch weiterhilft.", "tab": "content", "group": "closing" },
+      "ctaLabel": { "title": "Button", "type": "text", "default": "Gespräch vereinbaren", "tab": "content", "group": "closing" },
+      "ctaHref": { "title": "Anker / Link", "type": "text", "default": "#kontakt", "tab": "content", "group": "closing" },
+
+      "bgColor": { "title": "Hintergrund", "type": "color", "default": "#F1ECE1", "tab": "styles", "group": "style" },
+      "headlineColor": { "title": "Headline", "type": "color", "default": "#1E3B30", "tab": "styles", "group": "style" },
+      "accentColor": { "title": "Akzent (Labels)", "type": "color", "default": "#C89A6B", "tab": "styles", "group": "style" },
+      "ruleColor": { "title": "Trennlinien", "type": "color", "default": "#E8E1D3", "tab": "styles", "group": "style" }
+    },
+    "group": {
+      "cases": { "title": "Fallbeispiele" },
+      "closing": { "title": "Abschluss" },
+      "style": { "title": "Darstellung" }
+    }
+  }
+}

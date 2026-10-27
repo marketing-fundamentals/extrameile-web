@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+.stage {
+  list-style: none;
+  display: block;
+  min-width: 0;
+  font-family: 'Inter Tight', 'Inter', system-ui, sans-serif;
+  padding-right: 24px;
+}
+
+.track {
+  position: relative;
+  display: block;
+  height: 11px;
+  margin-bottom: 24px;
+}
+
+.rail {
+  position: absolute;
+  left: 0;
+  right: -24px;
+  top: 5px;
+  height: 1px;
+}
+
+.last .rail { right: calc(100% - 6px); }
+
+.dot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 1px solid #C89A6B;
+  box-sizing: border-box;
+}
+
+.number {
+  display: block;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  margin-bottom: 14px;
+}
+
+.title {
+  margin: 0 0 12px;
+  font-size: clamp(1.15rem, 1.5vw, 1.35rem);
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: -0.028em;
+  color: #1E3B30;
+}
+
+.text {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.62;
+  letter-spacing: -0.008em;
+  color: #6B6760;
+  max-width: 34ch;
+}
+
+@media (max-width: 860px) {
+  .stage {
+    display: grid;
+    grid-template-columns: 26px minmax(0, 1fr);
+    column-gap: 18px;
+    padding: 0 0 30px;
+  }
+  .last { padding-bottom: 0; }
+  .track {
+    grid-row: 1 / span 3;
+    grid-column: 1;
+    height: 100%;
+    width: 11px;
+    margin-bottom: 0;
+  }
+  .rail {
+    left: 5px;
+    right: auto;
+    top: 12px;
+    bottom: -30px;
+    width: 1px;
+    height: auto;
+  }
+  .last .rail { display: none; }
+  .dot { top: 2px; }
+  .number { grid-column: 2; margin-bottom: 10px; }
+  .title { grid-column: 2; }
+  .text { grid-column: 2; max-width: 48ch; }
+}

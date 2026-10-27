@@ -1,0 +1,57 @@
+{
+  "dependencies": {},
+  "onepage": {
+    "control": {
+      "marker": { "title": "Mono-Marke", "type": "text", "default": "06 · Zusammenarbeit", "tab": "content", "group": "root" },
+      "headline": { "title": "H2", "type": "text", "default": "So beginnt die Zusammenarbeit", "tab": "content", "group": "root" },
+      "note": { "title": "Abschlussnotiz", "type": "text", "default": "Größere Vorhaben wie eine neue Website oder eine umfangreiche Kampagne planen wir gesondert mit euch.", "tab": "content", "group": "root" },
+      "ctaLabel": { "title": "Button", "type": "text", "default": "Gespräch vereinbaren", "tab": "content", "group": "root" },
+      "ctaHref": { "title": "Anker / Link", "type": "text", "default": "#kontakt", "tab": "content", "group": "root" },
+      "anchorId": { "title": "Anker-ID", "type": "text", "default": "ablauf", "tab": "settings", "group": "root" },
+      "fullHeight": { "title": "Full height", "type": "checkbox", "default": false, "tab": "layout", "group": "root" },
+
+      "stages": {
+        "title": "Schritte",
+        "type": "array",
+        "tab": "content",
+        "group": "stages",
+        "items": {
+          "number": { "title": "Nummer", "type": "text", "default": "01" },
+          "title": { "title": "Titel", "type": "text", "default": "" },
+          "text": { "title": "Text", "type": "text", "default": "" }
+        },
+        "default": [
+          {
+            "number": "01",
+            "title": "Kennenlernen",
+            "text": "Wir sprechen über eure Gemeinde, eure Ziele und die Aufgaben, bei denen Unterstützung fehlt."
+          },
+          {
+            "number": "02",
+            "title": "Rahmen vereinbaren",
+            "text": "Wir legen Schwerpunkte, Stundenumfang, Kosten und Abstimmung fest."
+          },
+          {
+            "number": "03",
+            "title": "Gemeinsam starten",
+            "text": "Ihr stellt Informationen bereit und gebt Inhalte frei. Wir übernehmen die vereinbarte Vorbereitung und Umsetzung."
+          },
+          {
+            "number": "04",
+            "title": "Dranbleiben",
+            "text": "Wir besprechen regelmäßig, was ansteht, was hilfreich war und welche Prioritäten sich verändern."
+          }
+        ]
+      },
+
+      "bgColor": { "title": "Hintergrund", "type": "color", "default": "#F1ECE1", "tab": "styles", "group": "style" },
+      "headlineColor": { "title": "Headline", "type": "color", "default": "#1E3B30", "tab": "styles", "group": "style" },
+      "accentColor": { "title": "Akzent", "type": "color", "default": "#C89A6B", "tab": "styles", "group": "style" },
+      "ruleColor": { "title": "Trennlinien", "type": "color", "default": "#E8E1D3", "tab": "styles", "group": "style" }
+    },
+    "group": {
+      "stages": { "title": "Schritte" },
+      "style": { "title": "Darstellung" }
+    }
+  }
+}

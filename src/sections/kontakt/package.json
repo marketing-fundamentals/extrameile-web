@@ -1,0 +1,47 @@
+{
+  "dependencies": {},
+  "onepage": {
+    "control": {
+      "marker": { "title": "Mono-Marke", "type": "text", "default": "08 · Kontakt", "tab": "content", "group": "root" },
+      "headline": { "title": "H2", "type": "text", "default": "Wo würde euch Unterstützung gerade helfen?", "tab": "content", "group": "root" },
+      "intro1": { "title": "Absatz 1", "type": "text", "default": "Vielleicht fehlt euch Zeit für Social Media. Vielleicht steht ein Glaubenskurs bevor. Vielleicht möchtet ihr KI sinnvoll einsetzen oder eure Website verbessern.", "tab": "content", "group": "root" },
+      "intro2": { "title": "Absatz 2", "type": "text", "default": "Erzählt uns, was euch beschäftigt. Ein paar Sätze reichen für den Anfang.", "tab": "content", "group": "root" },
+      "blockTitle": { "title": "H3", "type": "text", "default": "Gemeinsam einen passenden Anfang finden.", "tab": "content", "group": "root" },
+      "blockText": { "title": "H3-Text", "type": "text", "default": "Im ersten Gespräch lernen wir eure Gemeinde und eure Aufgaben kennen. Wir sprechen darüber, was ihr erreichen möchtet und welche Unterstützung hilfreich wäre. Wenn eine Zusammenarbeit passt, vereinbaren wir einen konkreten Umfang und die Kosten.", "tab": "content", "group": "root" },
+      "anchorId": { "title": "Anker-ID", "type": "text", "default": "kontakt", "tab": "settings", "group": "root" },
+      "fullHeight": { "title": "Full height", "type": "checkbox", "default": false, "tab": "layout", "group": "root" },
+
+      "labelName": { "title": "Label Name", "type": "text", "default": "Name", "tab": "content", "group": "form" },
+      "labelOrg": { "title": "Label Gemeinde", "type": "text", "default": "Gemeinde oder Organisation", "tab": "content", "group": "form" },
+      "labelEmail": { "title": "Label E-Mail", "type": "text", "default": "E-Mail-Adresse", "tab": "content", "group": "form" },
+      "labelPhone": { "title": "Label Telefon", "type": "text", "default": "Telefonnummer", "tab": "content", "group": "form" },
+      "labelMessage": { "title": "Label Nachricht", "type": "text", "default": "Wobei wünscht ihr euch Unterstützung?", "tab": "content", "group": "form" },
+      "optionalHint": { "title": "Hinweis optional", "type": "text", "default": "optional", "tab": "content", "group": "form" },
+      "submitLabel": { "title": "Submit-Button", "type": "text", "default": "Gespräch anfragen", "tab": "content", "group": "form" },
+      "pendingLabel": { "title": "Beschriftung während Senden", "type": "text", "default": "Wird gesendet …", "tab": "content", "group": "form" },
+      "privacyTextBefore": { "title": "Datenschutzhinweis Teil 1", "type": "text", "default": "Informationen zur Verarbeitung eurer Angaben findet ihr in unserer", "tab": "content", "group": "form" },
+      "privacyLinkLabel": { "title": "Datenschutzhinweis Linktext", "type": "text", "default": "Datenschutzerklärung", "tab": "content", "group": "form" },
+      "privacyLinkHref": { "title": "Datenschutzhinweis Link", "type": "text", "default": "https://extrameile-ev.com/datenschutz", "tab": "content", "group": "form" },
+      "privacyTextAfter": { "title": "Datenschutzhinweis Teil 2", "type": "text", "default": ".", "tab": "content", "group": "form" },
+
+      "successTitle": { "title": "Erfolg Überschrift", "type": "text", "default": "Danke, eure Anfrage ist angekommen.", "tab": "content", "group": "states" },
+      "successText": { "title": "Erfolg Text", "type": "text", "default": "Wir melden uns bei euch und schlagen einen Termin für ein erstes Gespräch vor.", "tab": "content", "group": "states" },
+      "errorText": { "title": "Fehlertext Senden", "type": "text", "default": "Die Anfrage konnte nicht gesendet werden. Bitte versucht es noch einmal.", "tab": "content", "group": "states" },
+      "notConnectedText": { "title": "Hinweis ohne Formularanbindung", "type": "text", "default": "Dieses Formular ist noch nicht mit dem Formularspeicher verbunden. Das Absenden ist deshalb deaktiviert.", "tab": "content", "group": "states" },
+      "requiredError": { "title": "Fehler Pflichtfeld", "type": "text", "default": "Bitte füllt dieses Feld aus.", "tab": "content", "group": "states" },
+      "emailError": { "title": "Fehler E-Mail", "type": "text", "default": "Bitte gebt eine gültige E-Mail-Adresse ein.", "tab": "content", "group": "states" },
+      "phoneError": { "title": "Fehler Telefon", "type": "text", "default": "Bitte prüft die Telefonnummer.", "tab": "content", "group": "states" },
+
+      "bgColor": { "title": "Hintergrund", "type": "color", "default": "#F1ECE1", "tab": "styles", "group": "style" },
+      "headlineColor": { "title": "Headline", "type": "color", "default": "#1E3B30", "tab": "styles", "group": "style" },
+      "accentColor": { "title": "Akzent", "type": "color", "default": "#C89A6B", "tab": "styles", "group": "style" },
+      "cardColor": { "title": "Formularfläche", "type": "color", "default": "#E8E1D3", "tab": "styles", "group": "style" },
+      "ruleColor": { "title": "Trennlinien", "type": "color", "default": "#E8E1D3", "tab": "styles", "group": "style" }
+    },
+    "group": {
+      "form": { "title": "Formular" },
+      "states": { "title": "Meldungen" },
+      "style": { "title": "Darstellung" }
+    }
+  }
+}

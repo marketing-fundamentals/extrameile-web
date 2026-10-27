@@ -1,0 +1,62 @@
+{
+  "dependencies": {},
+  "onepage": {
+    "control": {
+      "marker": { "title": "Mono-Marke", "type": "text", "default": "05 · Über uns", "tab": "content", "group": "root" },
+      "headline": { "title": "H2", "type": "text", "default": "Euer Auftrag bewegt uns.", "tab": "content", "group": "root" },
+      "motifLabel": { "title": "Motiv-Beschriftung", "type": "text", "default": "Die zweite Meile", "tab": "content", "group": "root" },
+      "anchorId": { "title": "Anker-ID", "type": "text", "default": "ueber-uns", "tab": "settings", "group": "root" },
+      "fullHeight": { "title": "Full height", "type": "checkbox", "default": false, "tab": "layout", "group": "root" },
+
+      "leadParagraphs": {
+        "title": "Eingangsabsätze",
+        "type": "array",
+        "tab": "content",
+        "group": "copy",
+        "items": {
+          "text": { "title": "Absatz", "type": "text", "default": "" }
+        },
+        "default": [
+          { "text": "Gemeinden schaffen Raum für Glauben, Hoffnung und Gemeinschaft. Menschen dürfen ankommen, Fragen stellen und Jesus kennenlernen." },
+          { "text": "Dahinter stehen Mitarbeitende und Ehrenamtliche, die viel geben. Sie bereiten Gottesdienste vor, begleiten Menschen und organisieren das Gemeindeleben." }
+        ]
+      },
+      "leadHighlight": { "title": "Hervorgehobener Satz", "type": "text", "default": "Mit eXtrameile möchten wir diese Arbeit stärken.", "tab": "content", "group": "copy" },
+      "blocks": {
+        "title": "Textblöcke",
+        "type": "array",
+        "tab": "content",
+        "group": "copy",
+        "items": {
+          "title": { "title": "H3", "type": "text", "default": "" },
+          "text": { "title": "Text", "type": "text", "default": "" }
+        },
+        "default": [
+          {
+            "title": "Warum eXtrameile?",
+            "text": "Unser Name greift das biblische Bild der zweiten Meile auf. Für uns bedeutet das: aufmerksam sein, Verantwortung übernehmen und weiterdenken. Wenn wir eine Veranstaltung bewerben, schauen wir auch darauf, ob Interessierte alle Informationen finden. Wenn wir Vorlagen entwickeln, sollen eure Mitarbeitenden damit gut arbeiten können."
+          },
+          {
+            "title": "Glaube ist unser Antrieb.",
+            "text": "Wir wünschen uns, dass Menschen Jesus kennenlernen und Gemeinschaft finden. Digitale Kommunikation kann dafür Türen öffnen. Ein Gedanke aus einer Predigt erreicht jemanden mitten im Alltag. Eine Einladung macht Mut, einen Glaubenskurs zu besuchen. Eine verständliche Website nimmt Unsicherheit vor dem ersten Gemeindebesuch."
+          }
+        ]
+      },
+      "closingLine": { "title": "Abschlusssatz", "type": "text", "default": "Wir hören zu, erklären verständlich und packen mit an.", "tab": "content", "group": "copy" },
+
+      "ctaLabel": { "title": "Button", "type": "text", "default": "Gespräch vereinbaren", "tab": "content", "group": "cta" },
+      "ctaHref": { "title": "Anker / Link", "type": "text", "default": "#kontakt", "tab": "content", "group": "cta" },
+
+      "bgColor": { "title": "Hintergrund", "type": "color", "default": "#E8E1D3", "tab": "styles", "group": "style" },
+      "headlineColor": { "title": "Headline", "type": "color", "default": "#1E3B30", "tab": "styles", "group": "style" },
+      "accentColor": { "title": "Akzent", "type": "color", "default": "#C89A6B", "tab": "styles", "group": "style" },
+      "ruleColor": { "title": "Trennlinien", "type": "color", "default": "#F1ECE1", "tab": "styles", "group": "style" },
+      "showMotif": { "title": "Wegbogen-Motiv zeigen", "type": "checkbox", "default": true, "tab": "styles", "group": "style" }
+    },
+    "group": {
+      "copy": { "title": "Texte" },
+      "cta": { "title": "Button" },
+      "style": { "title": "Darstellung" }
+    }
+  }
+}

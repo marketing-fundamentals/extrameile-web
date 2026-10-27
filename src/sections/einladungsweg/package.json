@@ -1,0 +1,54 @@
+{
+  "dependencies": {},
+  "onepage": {
+    "control": {
+      "image": {
+        "title": "Bild",
+        "type": "media",
+        "tab": "content",
+        "group": "root",
+        "default": {
+          "src": "https://onecdn.io/media/0dfae037-1d4f-47c1-b25c-3d34b1bc74e1/lg",
+          "name": "Halb geöffnete Holztür zu einem warmen Gemeinschaftsraum",
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "imageAlt": { "title": "Alternativtext", "type": "text", "default": "Halb geöffnete helle Holztür zu einem warmen Gemeinschaftsraum mit Tisch und Stühlen im Nachmittagslicht", "tab": "content", "group": "root" },
+      "marker": { "title": "Mono-Marke", "type": "text", "default": "03 · Der Einladungsweg", "tab": "content", "group": "root" },
+      "headline": { "title": "H2", "type": "text", "default": "Von der ersten Einladung bis zum persönlichen Willkommen", "tab": "content", "group": "root" },
+      "paragraphTwo": { "title": "Abschlussabsatz", "type": "text", "default": "Wir denken diese Schritte zusammen. Damit eure Einladung Menschen erreicht und sie leichter den Weg zu euch finden.", "tab": "content", "group": "root" },
+      "anchorId": { "title": "Anker-ID", "type": "text", "default": "einladungsweg", "tab": "settings", "group": "root" },
+      "fullHeight": { "title": "Full height", "type": "checkbox", "default": false, "tab": "layout", "group": "root" },
+
+      "steps": {
+        "title": "Stationen mit Satz",
+        "type": "array",
+        "tab": "content",
+        "group": "steps",
+        "items": {
+          "label": { "title": "Station", "type": "text", "default": "Video" },
+          "text": { "title": "Satz", "type": "text", "default": "Ein Video weckt Interesse." },
+          "emphasis": { "title": "Als Endpunkt hervorheben", "type": "checkbox", "default": false }
+        },
+        "default": [
+          { "label": "Video", "text": "Ein Video weckt Interesse.", "emphasis": false },
+          { "label": "Website", "text": "Eine Website beantwortet die ersten Fragen.", "emphasis": false },
+          { "label": "Anmeldung", "text": "Die Anmeldung ist einfach.", "emphasis": false },
+          { "label": "Erinnerung", "text": "Eine Erinnerung hilft, den Termin im Blick zu behalten.", "emphasis": false },
+          { "label": "Willkommen", "text": "Und vor Ort wartet ein Mensch, der willkommen heißt.", "emphasis": true }
+        ]
+      },
+
+      "bgColor": { "title": "Hintergrund", "type": "color", "default": "#1E3B30", "tab": "styles", "group": "style" },
+      "headlineColor": { "title": "Headline", "type": "color", "default": "#F1ECE1", "tab": "styles", "group": "style" },
+      "bodyColor": { "title": "Textfarbe", "type": "color", "default": "#E8E1D3", "tab": "styles", "group": "style" },
+      "accentColor": { "title": "Akzent (Weglinie)", "type": "color", "default": "#C89A6B", "tab": "styles", "group": "style" },
+      "showGrain": { "title": "Feine Körnung auf dem Bild", "type": "checkbox", "default": true, "tab": "styles", "group": "style" }
+    },
+    "group": {
+      "steps": { "title": "Weg-Stationen" },
+      "style": { "title": "Darstellung" }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "dependencies": {},
+  "onepage": {
+    "control": {
+      "marker": { "title": "Mono-Marke", "type": "text", "default": "01 · Euer Gemeindealltag", "tab": "content", "group": "root" },
+      "headline": { "title": "H2", "type": "text", "default": "Ihr braucht jemanden, der mit anpackt.", "tab": "content", "group": "root" },
+      "situations": {
+        "title": "Alltagssituationen (Zeilen)",
+        "type": "array",
+        "tab": "content",
+        "group": "root",
+        "items": {
+          "text": { "title": "Zeile", "type": "text", "default": "Der nächste Glaubenskurs steht bevor." }
+        },
+        "default": [
+          { "text": "Der nächste Glaubenskurs steht bevor." },
+          { "text": "Die Website müsste aktualisiert werden." },
+          { "text": "Aus der Sonntagspredigt könnte ein gutes Video entstehen." }
+        ]
+      },
+      "pressureLine": { "title": "Satz nach den Zeilen", "type": "text", "default": "Gleichzeitig haben eure Mitarbeitenden bereits genug zu tun.", "tab": "content", "group": "root" },
+      "paragraphTwo": { "title": "Absatz 2", "type": "text", "default": "Eine passende Person zu finden, ist oft schwierig. Mit eXtrameile bekommt ihr regelmäßig Unterstützung, auch wenn eine eigene Stelle dafür gerade nicht möglich ist.", "tab": "content", "group": "root" },
+      "closingLine": { "title": "Abschlusssatz (hervorgehoben)", "type": "text", "default": "Gemeinsam legen wir fest, wo wenige Stunden pro Woche den größten Unterschied machen können.", "tab": "content", "group": "root" },
+      "anchorId": { "title": "Anker-ID", "type": "text", "default": "gemeindealltag", "tab": "settings", "group": "root" },
+
+      "bgColor": { "title": "Hintergrund", "type": "color", "default": "#E8E1D3", "tab": "styles", "group": "style" },
+      "headlineColor": { "title": "Headline", "type": "color", "default": "#1E3B30", "tab": "styles", "group": "style" },
+      "accentColor": { "title": "Akzent (Weglinie)", "type": "color", "default": "#C89A6B", "tab": "styles", "group": "style" },
+      "ruleColor": { "title": "Trennlinien", "type": "color", "default": "#F1ECE1", "tab": "styles", "group": "style" },
+      "showPathLine": { "title": "Camel-Weglinie zeigen", "type": "checkbox", "default": true, "tab": "styles", "group": "style" },
+      "fullHeight": { "title": "Full height", "type": "checkbox", "default": false, "tab": "layout", "group": "root" }
+    },
+    "group": {
+      "style": { "title": "Darstellung" }
+    }
+  }
+}

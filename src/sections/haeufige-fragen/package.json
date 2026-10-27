@@ -1,0 +1,60 @@
+{
+  "dependencies": {},
+  "onepage": {
+    "control": {
+      "marker": { "title": "Mono-Marke", "type": "text", "default": "07 · Häufige Fragen", "tab": "content", "group": "root" },
+      "headline": { "title": "H2", "type": "text", "default": "Was ihr vor einer Zusammenarbeit wissen möchtet", "tab": "content", "group": "root" },
+      "anchorId": { "title": "Anker-ID", "type": "text", "default": "fragen", "tab": "settings", "group": "root" },
+      "openFirst": { "title": "Erste Frage offen", "type": "checkbox", "default": true, "tab": "settings", "group": "root" },
+      "fullHeight": { "title": "Full height", "type": "checkbox", "default": false, "tab": "layout", "group": "root" },
+
+      "items": {
+        "title": "Fragen",
+        "type": "array",
+        "tab": "content",
+        "group": "items",
+        "items": {
+          "number": { "title": "Nummer", "type": "text", "default": "01" },
+          "question": { "title": "Frage", "type": "text", "default": "" },
+          "answer": { "title": "Antwort", "type": "text", "default": "" }
+        },
+        "default": [
+          {
+            "number": "01",
+            "question": "Was lässt sich mit wenigen Stunden pro Woche umsetzen?",
+            "answer": "Wir vereinbaren einen realistischen Schwerpunkt. Das kann die laufende Social-Media-Kommunikation sein, die Pflege eurer Website oder die Vorbereitung einer anstehenden Veranstaltung. Der genaue Umfang hängt von den Aufgaben und euren vorhandenen Grundlagen ab."
+          },
+          {
+            "number": "02",
+            "question": "Was kostet die Unterstützung?",
+            "answer": "Ihr bekommt ein Angebot für den vereinbarten Stundenumfang und die Aufgaben. Zusätzliche Ausgaben für Werbung oder Software besprechen wir vorab."
+          },
+          {
+            "number": "03",
+            "question": "Wie viel Zeit braucht ihr von unserem Team?",
+            "answer": "Zu Beginn lernen wir eure Gemeinde und eure Abläufe kennen. Anschließend brauchen wir vor allem aktuelle Informationen, Rückmeldungen und Freigaben. Eine feste Ansprechperson erleichtert die Zusammenarbeit."
+          },
+          {
+            "number": "04",
+            "question": "Können unsere Ehrenamtlichen weiter mitarbeiten?",
+            "answer": "Ja. Wir ergänzen euer Team und stimmen die Aufgaben gemeinsam ab. Vorlagen, praktische Hilfen und Schulungen unterstützen eure Mitarbeitenden dabei, selbst weiterzuarbeiten."
+          },
+          {
+            "number": "05",
+            "question": "Was ist mit größeren Projekten?",
+            "answer": "Für eine neue Website oder eine umfangreiche Kampagne vereinbaren wir einen gesonderten Umfang. Ihr wisst vor dem Start, was dafür gebraucht wird und welche Kosten entstehen."
+          }
+        ]
+      },
+
+      "bgColor": { "title": "Hintergrund", "type": "color", "default": "#E8E1D3", "tab": "styles", "group": "style" },
+      "headlineColor": { "title": "Headline", "type": "color", "default": "#1E3B30", "tab": "styles", "group": "style" },
+      "accentColor": { "title": "Akzent", "type": "color", "default": "#C89A6B", "tab": "styles", "group": "style" },
+      "ruleColor": { "title": "Trennlinien", "type": "color", "default": "#F1ECE1", "tab": "styles", "group": "style" }
+    },
+    "group": {
+      "items": { "title": "Fragen" },
+      "style": { "title": "Darstellung" }
+    }
+  }
+}

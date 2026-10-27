@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap');
+
+.title {
+  font-family: 'Inter Tight', 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+  text-wrap: pretty;
+}
+
+.balance { text-wrap: balance; }
+
+.hero { font-size: clamp(2.5rem, 5.1vw, 4.4rem); }
+.xl { font-size: clamp(2.1rem, 3.8vw, 3.2rem); }
+.lg { font-size: clamp(1.75rem, 2.8vw, 2.5rem); }
+.md { font-size: clamp(1.4rem, 2vw, 1.75rem); line-height: 1.15; letter-spacing: -0.025em; }
+.sm { font-size: 1.15rem; line-height: 1.25; letter-spacing: -0.02em; }
+
+.forest { color: #1E3B30; }
+.deep { color: #142A22; }
+.ink { color: #141414; }
+.cream { color: #F1ECE1; }
+.camel { color: #C89A6B; }

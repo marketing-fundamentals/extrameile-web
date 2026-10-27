@@ -1,0 +1,149 @@
+{
+    "dependencies": {},
+    "onepage": {
+        "control": {
+            "eyebrow": {
+                "title": "Eyebrow",
+                "type": "text",
+                "default": "Digitale Unterstützung für Gemeinden",
+                "tab": "content",
+                "group": "root"
+            },
+            "headlineLineOne": {
+                "title": "Headline Zeile 1",
+                "type": "text",
+                "default": "Mehr Menschen erreichen.",
+                "tab": "content",
+                "group": "root"
+            },
+            "headlineLineTwo": {
+                "title": "Headline Zeile 2",
+                "type": "text",
+                "default": "Euer Team entlasten.",
+                "tab": "content",
+                "group": "root"
+            },
+            "subline": {
+                "title": "Unterzeile",
+                "type": "text",
+                "default": "Mit wenigen Stunden Unterstützung pro Woche.",
+                "tab": "content",
+                "group": "root"
+            },
+            "paragraphOne": {
+                "title": "Absatz 1",
+                "type": "text",
+                "default": "Eure Gemeinde hat viel zu geben. Doch zwischen Gottesdienstvorbereitung, Gesprächen und Organisation fehlt oft die Zeit, eure Angebote auch digital sichtbar zu machen.",
+                "tab": "content",
+                "group": "root"
+            },
+            "paragraphTwo": {
+                "title": "Absatz 2",
+                "type": "text",
+                "default": "eXtrameile ergänzt euer Team bei Kommunikation, Social Media, Werbung und dem sinnvollen Einsatz von KI. Wir denken mit, übernehmen vereinbarte Aufgaben und bringen eure nächsten Schritte voran.",
+                "tab": "content",
+                "group": "root"
+            },
+            "bgColor": {
+                "title": "Hintergrund",
+                "type": "color",
+                "default": "#F1ECE1",
+                "tab": "styles",
+                "group": "root"
+            },
+            "headlineColor": {
+                "title": "Headline",
+                "type": "color",
+                "default": "#1E3B30",
+                "tab": "styles",
+                "group": "root"
+            },
+            "accentColor": {
+                "title": "Akzent",
+                "type": "color",
+                "default": "#C89A6B",
+                "tab": "styles",
+                "group": "root"
+            },
+            "fullHeight": {
+                "title": "Full height",
+                "type": "checkbox",
+                "default": false,
+                "tab": "layout",
+                "group": "root"
+            },
+            "image": {
+                "title": "Hero-Bild",
+                "type": "media",
+                "tab": "content",
+                "group": "media",
+                "default": {
+                    "src": "https://onecdn.io/media/a6d6504a-609c-436f-af89-6112e9b49b97/full",
+                    "name": "4e19d839-be1c-4c97-be3b-d54fc54f4c23-2026-10-21.png",
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            "imageAlt": {
+                "title": "Alternativtext",
+                "type": "text",
+                "default": "Zwei Menschen planen gemeinsam an einem Tisch mit Laptop und offenen Notizen in einem hellen Gemeindehaus",
+                "tab": "content",
+                "group": "media"
+            },
+            "imageCaption": {
+                "title": "Bildnotiz (Mono-Label)",
+                "type": "text",
+                "default": "",
+                "tab": "content",
+                "group": "media"
+            },
+            "showFrameLine": {
+                "title": "Camel-Rahmenlinie zeigen",
+                "type": "checkbox",
+                "default": true,
+                "tab": "styles",
+                "group": "media"
+            },
+            "primaryLabel": {
+                "title": "Beschriftung",
+                "type": "text",
+                "default": "Unterstützung besprechen",
+                "tab": "content",
+                "group": "primaryButton"
+            },
+            "primaryHref": {
+                "title": "Anker / Link",
+                "type": "text",
+                "default": "#kontakt",
+                "tab": "content",
+                "group": "primaryButton"
+            },
+            "secondaryLabel": {
+                "title": "Beschriftung",
+                "type": "text",
+                "default": "Unsere Arbeit kennenlernen",
+                "tab": "content",
+                "group": "secondaryButton"
+            },
+            "secondaryHref": {
+                "title": "Anker / Link",
+                "type": "text",
+                "default": "#praxis",
+                "tab": "content",
+                "group": "secondaryButton"
+            }
+        },
+        "group": {
+            "media": {
+                "title": "Bild"
+            },
+            "primaryButton": {
+                "title": "Primärbutton"
+            },
+            "secondaryButton": {
+                "title": "Sekundärbutton"
+            }
+        }
+    }
+}

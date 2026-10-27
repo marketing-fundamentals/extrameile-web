@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+
+.line {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
+.track {
+  position: relative;
+  display: block;
+  height: 9px;
+}
+
+.rail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 4px;
+  height: 1px;
+}
+
+.item:last-child .rail { right: calc(100% - 5px); }
+
+.dot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #C89A6B;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.dotLast { width: 11px; height: 11px; top: -1px; }
+
+.label {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+
+.toneCream .label { color: #E8E1D3; }
+.toneForest .label { color: #1E3B30; }
+
+@media (max-width: 760px) {
+  .line {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    gap: 0;
+  }
+  .item {
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    padding: 11px 0;
+  }
+  .track { width: 11px; height: 100%; min-height: 20px; flex: none; }
+  .rail { left: 4px; right: auto; top: 0; bottom: 0; width: 1px; height: auto; }
+  .item:last-child .rail { bottom: calc(100% - 6px); right: auto; }
+  .dot { top: 50%; transform: translateY(-50%); }
+  .dotLast { left: -1px; }
+}

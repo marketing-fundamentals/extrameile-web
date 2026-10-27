@@ -1,0 +1,152 @@
+.section {
+  width: 100%;
+  padding: 118px 28px 126px;
+}
+
+.sectionFull {
+  min-height: var(--con-kit-section-min-height, 100vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 52fr) minmax(0, 48fr);
+  gap: 96px;
+  align-items: start;
+}
+
+.copy { min-width: 0; }
+
+.markerRow { margin-bottom: 26px; }
+
+.introBlock {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.block {
+  border-top: 1px solid #E8E1D3;
+  margin-top: 44px;
+  padding-top: 30px;
+}
+
+.blockTitle {
+  margin: 0 0 14px;
+  font-family: 'Inter Tight', 'Inter', system-ui, sans-serif;
+  font-size: clamp(1.2rem, 1.6vw, 1.45rem);
+  font-weight: 500;
+  line-height: 1.24;
+  letter-spacing: -0.03em;
+  color: #1E3B30;
+}
+
+.formWrap {
+  min-width: 0;
+  background: #E8E1D3;
+  padding: 44px 44px 40px;
+  border-radius: 2px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.actions {
+  margin-top: 6px;
+  padding-top: 30px;
+  border-top: 1px solid #F1ECE1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.notice {
+  margin: 0;
+  padding-left: 16px;
+  border-left: 2px solid #C89A6B;
+  font-family: 'Inter Tight', 'Inter', system-ui, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: #6B6760;
+  max-width: 48ch;
+}
+
+.privacy {
+  margin: 0;
+  font-family: 'Inter Tight', 'Inter', system-ui, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.6;
+  letter-spacing: -0.004em;
+  color: #6B6760;
+  max-width: 52ch;
+}
+
+.privacyLink {
+  color: #1E3B30;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.privacyLink:hover { color: #142A22; }
+
+.privacyLink:focus-visible {
+  outline: 2px solid #C89A6B;
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+.formError {
+  margin: 0;
+  font-family: 'Inter Tight', 'Inter', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #9B3B2F;
+  max-width: 48ch;
+}
+
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 0 14px;
+}
+
+.successMark {
+  width: 34px;
+  height: 2px;
+  background: #C89A6B;
+  margin-bottom: 26px;
+}
+
+.successText { margin-top: 14px; }
+
+@media (max-width: 1024px) {
+  .inner { gap: 56px; }
+  .formWrap { padding: 36px 32px 34px; }
+}
+
+@media (max-width: 900px) {
+  .section { padding: 74px 20px 82px; }
+  .inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 40px;
+  }
+  .block { margin-top: 34px; padding-top: 26px; }
+}
+
+@media (max-width: 560px) {
+  .formWrap { padding: 28px 22px 26px; }
+  .form { gap: 26px; }
+  .actions > :first-child { width: 100%; }
+}

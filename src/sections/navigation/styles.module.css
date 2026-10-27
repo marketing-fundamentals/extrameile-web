@@ -1,0 +1,113 @@
+.nav {
+  width: 100%;
+  border-bottom: 1px solid #E8E1D3;
+  position: relative;
+  z-index: 20;
+}
+
+.navPinned {
+  box-shadow: 0 1px 0 0 #E8E1D3, 0 10px 24px -22px #1E3B3066;
+}
+
+.navFull {
+  min-height: var(--con-kit-section-min-height, 100vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 18px 28px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  margin-left: auto;
+}
+
+.desktopCta { display: block; }
+
+.burger {
+  display: none;
+  margin-left: auto;
+  width: 42px;
+  height: 42px;
+  background: transparent;
+  border: 1px solid #1E3B3030;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  flex: none;
+}
+
+.burger:focus-visible { outline: 2px solid #C89A6B; outline-offset: 2px; }
+
+.bar {
+  position: absolute;
+  left: 11px;
+  width: 18px;
+  height: 1.5px;
+  background: #1E3B30;
+  transition: transform 0.26s ease, opacity 0.2s ease;
+}
+
+.bar:first-of-type { top: 17px; }
+.bar:last-of-type { top: 23px; }
+
+.barTopOpen { transform: translateY(3px) rotate(45deg); }
+.barBottomOpen { transform: translateY(-3px) rotate(-45deg); }
+
+.panel {
+  display: none;
+  overflow: hidden;
+  border-top: 1px solid #E8E1D3;
+}
+
+.panelInner {
+  padding: 8px 28px 30px;
+  max-height: calc(var(--con-kit-section-min-height, 100vh) - 132px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.panelRow {
+  border-top: 1px solid #E8E1D3;
+  padding: 12px 0;
+}
+
+.panelRow:first-child { border-top: none; }
+
+.panelCta { margin-top: 22px; }
+
+.pinRule {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1px;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .links, .desktopCta { display: none; }
+  .burger { display: block; }
+  .panel { display: block; }
+  .inner { padding: 13px 20px; gap: 16px; }
+  .panelInner { padding: 8px 20px 26px; }
+}
+
+@media (max-width: 420px) {
+  .inner { padding: 11px 16px; }
+  .panelInner { padding: 8px 16px 22px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bar { transition: none; }
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+.footer {
+  width: 100%;
+  background: #1E3B30;
+  padding: 84px 28px 0;
+  font-family: 'Inter Tight', 'Inter', system-ui, sans-serif;
+}
+
+.footerFull {
+  min-height: var(--con-kit-section-min-height, 100vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.inner {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 46fr) minmax(0, 27fr) minmax(0, 27fr);
+  gap: 64px;
+  padding-bottom: 64px;
+}
+
+.brand { min-width: 0; }
+
+.claim {
+  margin: 24px 0 0;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.008em;
+  max-width: 38ch;
+  color: #E8E1D3;
+}
+
+.col { min-width: 0; }
+
+.colTitle {
+  margin: 0 0 20px;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #C89A6B;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.008em;
+  color: #F1ECE1;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.link:hover { border-bottom-color: #C89A6B; }
+
+.link:focus-visible {
+  outline: 2px solid #C89A6B;
+  outline-offset: 4px;
+  border-radius: 1px;
+}
+
+.baseline {
+  border-top: 1px solid #F1ECE11f;
+}
+
+.baselineInner {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 26px 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.copy {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: #E8E1D3;
+}
+
+.dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .footer { padding: 58px 20px 0; }
+  .inner {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 40px;
+    padding-bottom: 44px;
+  }
+  .brand { grid-column: 1 / -1; }
+}
+
+@media (max-width: 480px) {
+  .inner { grid-template-columns: minmax(0, 1fr); gap: 34px; }
+  .baselineInner { padding: 22px 0 26px; }
+}

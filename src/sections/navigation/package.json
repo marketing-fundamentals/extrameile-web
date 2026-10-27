@@ -1,0 +1,40 @@
+{
+  "dependencies": {},
+  "onepage": {
+    "control": {
+      "navItems": {
+        "title": "Menüpunkte",
+        "type": "array",
+        "tab": "content",
+        "group": "root",
+        "items": {
+          "label": { "title": "Beschriftung", "type": "text", "default": "Unterstützung" },
+          "href": { "title": "Anker / Link", "type": "text", "default": "#unterstuetzung" }
+        },
+        "default": [
+          { "label": "Unterstützung", "href": "#unterstuetzung" },
+          { "label": "Aus der Praxis", "href": "#praxis" },
+          { "label": "Über uns", "href": "#ueber-uns" },
+          { "label": "Kontakt", "href": "#kontakt" }
+        ]
+      },
+      "bgColor": { "title": "Hintergrund", "type": "color", "default": "#F1ECE1", "tab": "styles", "group": "root" },
+      "borderColor": { "title": "Trennlinie", "type": "color", "default": "#E8E1D3", "tab": "styles", "group": "root" },
+      "accentColor": { "title": "Akzent", "type": "color", "default": "#C89A6B", "tab": "styles", "group": "root" },
+      "sticky": { "title": "Beim Scrollen oben mitlaufen", "type": "checkbox", "default": true, "tab": "settings", "group": "root" },
+      "markActiveSection": { "title": "Aktuellen Abschnitt markieren", "type": "checkbox", "default": true, "tab": "settings", "group": "root" },
+      "fullHeight": { "title": "Full height", "type": "checkbox", "default": false, "tab": "layout", "group": "root" },
+
+      "brandText": { "title": "Wortmarke", "type": "text", "default": "eXtrameile", "tab": "content", "group": "brand" },
+      "brandHref": { "title": "Link", "type": "text", "default": "#top", "tab": "content", "group": "brand" },
+      "showMark": { "title": "Wegbogen-Zeichen zeigen", "type": "checkbox", "default": true, "tab": "content", "group": "brand" },
+
+      "ctaLabel": { "title": "Beschriftung", "type": "text", "default": "Gespräch vereinbaren", "tab": "content", "group": "cta" },
+      "ctaHref": { "title": "Anker / Link", "type": "text", "default": "#kontakt", "tab": "content", "group": "cta" }
+    },
+    "group": {
+      "brand": { "title": "Wortmarke" },
+      "cta": { "title": "Hauptbutton" }
+    }
+  }
+}

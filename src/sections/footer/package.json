@@ -1,0 +1,52 @@
+{
+  "dependencies": {},
+  "onepage": {
+    "control": {
+      "claim": { "title": "Claim", "type": "text", "default": "Digitale Unterstützung für Gemeinden und christliche Organisationen.", "tab": "content", "group": "root" },
+      "navTitle": { "title": "Überschrift Navigation", "type": "text", "default": "Seite", "tab": "content", "group": "root" },
+      "legalTitle": { "title": "Überschrift Rechtliches", "type": "text", "default": "Rechtliches", "tab": "content", "group": "root" },
+      "copyright": { "title": "Copyright", "type": "text", "default": "© 2026 eXtrameile", "tab": "content", "group": "root" },
+      "fullHeight": { "title": "Full height", "type": "checkbox", "default": false, "tab": "layout", "group": "root" },
+
+      "navLinks": {
+        "title": "Navigation",
+        "type": "array",
+        "tab": "content",
+        "group": "links",
+        "items": {
+          "label": { "title": "Beschriftung", "type": "text", "default": "" },
+          "href": { "title": "Anker / Link", "type": "text", "default": "#" }
+        },
+        "default": [
+          { "label": "Unterstützung", "href": "#unterstuetzung" },
+          { "label": "Aus der Praxis", "href": "#praxis" },
+          { "label": "Über uns", "href": "#ueber-uns" },
+          { "label": "Kontakt", "href": "#kontakt" }
+        ]
+      },
+      "legalLinks": {
+        "title": "Rechtliche Links",
+        "type": "array",
+        "tab": "content",
+        "group": "links",
+        "items": {
+          "label": { "title": "Beschriftung", "type": "text", "default": "" },
+          "href": { "title": "Link", "type": "text", "default": "" }
+        },
+        "default": [
+          { "label": "Impressum", "href": "https://extrameile-ev.com/impressum" },
+          { "label": "Datenschutz", "href": "https://extrameile-ev.com/datenschutz" }
+        ]
+      },
+
+      "bgColor": { "title": "Hintergrund", "type": "color", "default": "#1E3B30", "tab": "styles", "group": "style" },
+      "textColor": { "title": "Text", "type": "color", "default": "#F1ECE1", "tab": "styles", "group": "style" },
+      "mutedColor": { "title": "Sekundärtext", "type": "color", "default": "#E8E1D3", "tab": "styles", "group": "style" },
+      "accentColor": { "title": "Akzent", "type": "color", "default": "#C89A6B", "tab": "styles", "group": "style" }
+    },
+    "group": {
+      "links": { "title": "Links" },
+      "style": { "title": "Darstellung" }
+    }
+  }
+}

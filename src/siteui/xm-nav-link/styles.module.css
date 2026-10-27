@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap');
+
+.link {
+  position: relative;
+  display: inline-block;
+  font-family: 'Inter Tight', 'Inter', system-ui, sans-serif;
+  color: #1E3B30;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  transition: color 0.2s ease;
+}
+
+.sm { font-size: 15.5px; padding: 6px 0; }
+.lg { font-size: 27px; font-weight: 500; letter-spacing: -0.02em; padding: 10px 0; }
+
+.label { position: relative; display: inline-block; }
+
+.label::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 1.5px;
+  width: 100%;
+  background: #C89A6B;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.link:hover .label::after,
+.link:focus-visible .label::after,
+.active .label::after { transform: scaleX(1); }
+
+.active { color: #142A22; font-weight: 500; }
+
+.link:hover { color: #142A22; }
+
+.link:focus-visible {
+  outline: 2px solid #C89A6B;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .label::after { transition: none; }
+}

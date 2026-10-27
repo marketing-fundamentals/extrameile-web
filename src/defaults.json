@@ -1,0 +1,442 @@
+{
+  "aus-der-praxis": {
+    "marker": "04 · Aus der Praxis",
+    "headline": "Was wir bereits umgesetzt haben.",
+    "intro": "Unsere Arbeit reicht von regelmäßiger Gemeindekommunikation bis zur Bewerbung christlicher Veranstaltungen. Diese Projekte geben euch einen Einblick.",
+    "anchorId": "praxis",
+    "fullHeight": false,
+    "cases": [
+      {
+        "number": "01",
+        "title": "Alpha Kurs · St. Matthäus Augsburg",
+        "subline": "Menschen außerhalb der Gemeinde zum Fragen einladen.",
+        "tags": "Anmeldeseiten · Videoinhalte · Anzeigen",
+        "body": "Für den Alpha Kurs haben wir eine digitale Kampagne mit unterschiedlichen Ansprachen entwickelt: für Menschen auf Sinnsuche, spirituell Interessierte und Menschen mit Fragen zu Jesus. Dazu entstanden drei zielgruppenspezifische Anmeldeseiten, Kurzvideos und Social-Media-Inhalte. Bezahlte Anzeigen liefen auf Facebook, Instagram, Google und YouTube.",
+        "contributionLabel": "Unser Beitrag",
+        "contribution": "Recherche, Kommunikationsstrategie, Anmeldeseiten, Videoinhalte, Kampagnenbetreuung und Auswertung.",
+        "resultsLabel": "Ergebnisse",
+        "resultsPeriod": "",
+        "metrics": [
+          {
+            "value": "2.180",
+            "label": "Klicks auf die Anmeldeseiten"
+          },
+          {
+            "value": "22",
+            "label": "bestätigte Interessentenkontakte im ersten Durchgang"
+          },
+          {
+            "value": "16",
+            "label": "davon direkte Online-Anmeldungen"
+          }
+        ],
+        "note": "Laut Rückmeldung des Gemeindeteams kamen außerdem Menschen über YouTube zum Kurs, die sich vorher nicht online angemeldet hatten.",
+        "showArc": true
+      },
+      {
+        "number": "02",
+        "title": "Hope Tour",
+        "subline": "Eine Tour digital bekannt machen.",
+        "tags": "Tourwerbung · Media Buying",
+        "body": "Wir haben die Hope Tour bei der Bewerbung der Tour und durch Media Buying unterstützt.",
+        "contributionLabel": "Unser Beitrag",
+        "contribution": "Unser Beitrag umfasste die Unterstützung der Tourwerbung sowie die Planung und Buchung digitaler Werbeanzeigen. Damit haben wir daran mitgearbeitet, Menschen auf die Veranstaltungen aufmerksam zu machen.",
+        "resultsLabel": "Ergebnisse",
+        "resultsPeriod": "",
+        "metrics": [],
+        "note": "",
+        "showArc": true
+      },
+      {
+        "number": "03",
+        "title": "ICCC · Buch und Konferenz",
+        "subline": "Vom ersten Interesse zum weiteren Kontakt.",
+        "tags": "Landingpages · Anzeigen · E-Mail-Strecken",
+        "body": "Für ICCC haben wir digitale Projekte rund um das Buch „Unsere tägliche Arbeit“ und die Konferenz 2026 umgesetzt. Dazu gehörten Landingpages, bezahlte Werbekampagnen auf Meta und Google sowie automatisierte E-Mail-Strecken.",
+        "contributionLabel": "Unser Beitrag",
+        "contribution": "",
+        "resultsLabel": "Ergebnisse",
+        "resultsPeriod": "25. Juni bis 23. September 2026",
+        "metrics": [
+          {
+            "value": "1,81 Mio.",
+            "label": "Anzeigeneinblendungen"
+          },
+          {
+            "value": "41.392",
+            "label": "Klicks"
+          },
+          {
+            "value": "311",
+            "label": "neue Kontakte über Buch-, E-Book- und Veranstaltungsangebote"
+          }
+        ],
+        "note": "In den neuen Kontakten enthalten sind 69 Veranstaltungsanfragen über das Formular.",
+        "showArc": true
+      }
+    ],
+    "closingTitle": "Diese Erfahrung bringen wir in eure Gemeinde ein.",
+    "closingText": "Ob ihr regelmäßig Unterstützung braucht oder ein konkretes Vorhaben plant: Wir schauen gemeinsam, welche Arbeit euch weiterhilft.",
+    "ctaLabel": "Gespräch vereinbaren",
+    "ctaHref": "#kontakt",
+    "bgColor": "#F1ECE1",
+    "headlineColor": "#1E3B30",
+    "accentColor": "#C89A6B",
+    "ruleColor": "#E8E1D3"
+  },
+  "einladungsweg": {
+    "image": {
+      "src": "https://onecdn.io/media/0dfae037-1d4f-47c1-b25c-3d34b1bc74e1/lg",
+      "name": "Halb geöffnete Holztür zu einem warmen Gemeinschaftsraum",
+      "width": 1024,
+      "height": 1024
+    },
+    "imageAlt": "Halb geöffnete helle Holztür zu einem warmen Gemeinschaftsraum mit Tisch und Stühlen im Nachmittagslicht",
+    "marker": "03 · Der Einladungsweg",
+    "headline": "Von der ersten Einladung bis zum persönlichen Willkommen",
+    "paragraphTwo": "Wir denken diese Schritte zusammen. Damit eure Einladung Menschen erreicht und sie leichter den Weg zu euch finden.",
+    "anchorId": "einladungsweg",
+    "fullHeight": false,
+    "steps": [
+      {
+        "label": "Video",
+        "text": "Ein Video weckt Interesse.",
+        "emphasis": false
+      },
+      {
+        "label": "Website",
+        "text": "Eine Website beantwortet die ersten Fragen.",
+        "emphasis": false
+      },
+      {
+        "label": "Anmeldung",
+        "text": "Die Anmeldung ist einfach.",
+        "emphasis": false
+      },
+      {
+        "label": "Erinnerung",
+        "text": "Eine Erinnerung hilft, den Termin im Blick zu behalten.",
+        "emphasis": false
+      },
+      {
+        "label": "Willkommen",
+        "text": "Und vor Ort wartet ein Mensch, der willkommen heißt.",
+        "emphasis": true
+      }
+    ],
+    "bgColor": "#1E3B30",
+    "headlineColor": "#F1ECE1",
+    "bodyColor": "#E8E1D3",
+    "accentColor": "#C89A6B",
+    "showGrain": true
+  },
+  "entlastungsbedarf": {
+    "marker": "01 · Euer Gemeindealltag",
+    "headline": "Ihr braucht jemanden, der mit anpackt.",
+    "situations": [
+      {
+        "text": "Der nächste Glaubenskurs steht bevor."
+      },
+      {
+        "text": "Die Website müsste aktualisiert werden."
+      },
+      {
+        "text": "Aus der Sonntagspredigt könnte ein gutes Video entstehen."
+      }
+    ],
+    "pressureLine": "Gleichzeitig haben eure Mitarbeitenden bereits genug zu tun.",
+    "paragraphTwo": "Eine passende Person zu finden, ist oft schwierig. Mit eXtrameile bekommt ihr regelmäßig Unterstützung, auch wenn eine eigene Stelle dafür gerade nicht möglich ist.",
+    "closingLine": "Gemeinsam legen wir fest, wo wenige Stunden pro Woche den größten Unterschied machen können.",
+    "anchorId": "gemeindealltag",
+    "bgColor": "#E8E1D3",
+    "headlineColor": "#1E3B30",
+    "accentColor": "#C89A6B",
+    "ruleColor": "#F1ECE1",
+    "showPathLine": true,
+    "fullHeight": false
+  },
+  "footer": {
+    "claim": "Digitale Unterstützung für Gemeinden und christliche Organisationen.",
+    "navTitle": "Seite",
+    "legalTitle": "Rechtliches",
+    "copyright": "© 2026 eXtrameile",
+    "fullHeight": false,
+    "navLinks": [
+      {
+        "label": "Unterstützung",
+        "href": "#unterstuetzung"
+      },
+      {
+        "label": "Aus der Praxis",
+        "href": "#praxis"
+      },
+      {
+        "label": "Über uns",
+        "href": "#ueber-uns"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "legalLinks": [
+      {
+        "label": "Impressum",
+        "href": "https://extrameile-ev.com/impressum"
+      },
+      {
+        "label": "Datenschutz",
+        "href": "https://extrameile-ev.com/datenschutz"
+      }
+    ],
+    "bgColor": "#1E3B30",
+    "textColor": "#F1ECE1",
+    "mutedColor": "#E8E1D3",
+    "accentColor": "#C89A6B"
+  },
+  "haeufige-fragen": {
+    "marker": "07 · Häufige Fragen",
+    "headline": "Was ihr vor einer Zusammenarbeit wissen möchtet",
+    "anchorId": "fragen",
+    "openFirst": true,
+    "fullHeight": false,
+    "items": [
+      {
+        "number": "01",
+        "question": "Was lässt sich mit wenigen Stunden pro Woche umsetzen?",
+        "answer": "Wir vereinbaren einen realistischen Schwerpunkt. Das kann die laufende Social-Media-Kommunikation sein, die Pflege eurer Website oder die Vorbereitung einer anstehenden Veranstaltung. Der genaue Umfang hängt von den Aufgaben und euren vorhandenen Grundlagen ab."
+      },
+      {
+        "number": "02",
+        "question": "Was kostet die Unterstützung?",
+        "answer": "Ihr bekommt ein Angebot für den vereinbarten Stundenumfang und die Aufgaben. Zusätzliche Ausgaben für Werbung oder Software besprechen wir vorab."
+      },
+      {
+        "number": "03",
+        "question": "Wie viel Zeit braucht ihr von unserem Team?",
+        "answer": "Zu Beginn lernen wir eure Gemeinde und eure Abläufe kennen. Anschließend brauchen wir vor allem aktuelle Informationen, Rückmeldungen und Freigaben. Eine feste Ansprechperson erleichtert die Zusammenarbeit."
+      },
+      {
+        "number": "04",
+        "question": "Können unsere Ehrenamtlichen weiter mitarbeiten?",
+        "answer": "Ja. Wir ergänzen euer Team und stimmen die Aufgaben gemeinsam ab. Vorlagen, praktische Hilfen und Schulungen unterstützen eure Mitarbeitenden dabei, selbst weiterzuarbeiten."
+      },
+      {
+        "number": "05",
+        "question": "Was ist mit größeren Projekten?",
+        "answer": "Für eine neue Website oder eine umfangreiche Kampagne vereinbaren wir einen gesonderten Umfang. Ihr wisst vor dem Start, was dafür gebraucht wird und welche Kosten entstehen."
+      }
+    ],
+    "bgColor": "#E8E1D3",
+    "headlineColor": "#1E3B30",
+    "accentColor": "#C89A6B",
+    "ruleColor": "#F1ECE1"
+  },
+  "hero": {
+    "eyebrow": "Digitale Unterstützung für Gemeinden",
+    "headlineLineOne": "Mehr Menschen erreichen.",
+    "headlineLineTwo": "Euer Team entlasten.",
+    "subline": "Mit wenigen Stunden Unterstützung pro Woche.",
+    "paragraphOne": "Eure Gemeinde hat viel zu geben. Doch zwischen Gottesdienstvorbereitung, Gesprächen und Organisation fehlt oft die Zeit, eure Angebote auch digital sichtbar zu machen.",
+    "paragraphTwo": "eXtrameile ergänzt euer Team bei Kommunikation, Social Media, Werbung und dem sinnvollen Einsatz von KI. Wir denken mit, übernehmen vereinbarte Aufgaben und bringen eure nächsten Schritte voran.",
+    "bgColor": "#F1ECE1",
+    "headlineColor": "#1E3B30",
+    "accentColor": "#C89A6B",
+    "fullHeight": false,
+    "image": {
+      "src": "https://onecdn.io/media/a6d6504a-609c-436f-af89-6112e9b49b97/full",
+      "name": "4e19d839-be1c-4c97-be3b-d54fc54f4c23-2026-10-21.png",
+      "width": 0,
+      "height": 0
+    },
+    "imageAlt": "Zwei Menschen planen gemeinsam an einem Tisch mit Laptop und offenen Notizen in einem hellen Gemeindehaus",
+    "imageCaption": "",
+    "showFrameLine": true,
+    "primaryLabel": "Unterstützung besprechen",
+    "primaryHref": "#kontakt",
+    "secondaryLabel": "Unsere Arbeit kennenlernen",
+    "secondaryHref": "#praxis"
+  },
+  "kontakt": {
+    "marker": "08 · Kontakt",
+    "headline": "Wo würde euch Unterstützung gerade helfen?",
+    "intro1": "Vielleicht fehlt euch Zeit für Social Media. Vielleicht steht ein Glaubenskurs bevor. Vielleicht möchtet ihr KI sinnvoll einsetzen oder eure Website verbessern.",
+    "intro2": "Erzählt uns, was euch beschäftigt. Ein paar Sätze reichen für den Anfang.",
+    "blockTitle": "Gemeinsam einen passenden Anfang finden.",
+    "blockText": "Im ersten Gespräch lernen wir eure Gemeinde und eure Aufgaben kennen. Wir sprechen darüber, was ihr erreichen möchtet und welche Unterstützung hilfreich wäre. Wenn eine Zusammenarbeit passt, vereinbaren wir einen konkreten Umfang und die Kosten.",
+    "anchorId": "kontakt",
+    "fullHeight": false,
+    "labelName": "Name",
+    "labelOrg": "Gemeinde oder Organisation",
+    "labelEmail": "E-Mail-Adresse",
+    "labelPhone": "Telefonnummer",
+    "labelMessage": "Wobei wünscht ihr euch Unterstützung?",
+    "optionalHint": "optional",
+    "submitLabel": "Gespräch anfragen",
+    "pendingLabel": "Wird gesendet …",
+    "privacyTextBefore": "Informationen zur Verarbeitung eurer Angaben findet ihr in unserer",
+    "privacyLinkLabel": "Datenschutzerklärung",
+    "privacyLinkHref": "https://extrameile-ev.com/datenschutz",
+    "privacyTextAfter": ".",
+    "successTitle": "Danke, eure Anfrage ist angekommen.",
+    "successText": "Wir melden uns bei euch und schlagen einen Termin für ein erstes Gespräch vor.",
+    "errorText": "Die Anfrage konnte nicht gesendet werden. Bitte versucht es noch einmal.",
+    "notConnectedText": "Dieses Formular ist noch nicht mit dem Formularspeicher verbunden. Das Absenden ist deshalb deaktiviert.",
+    "requiredError": "Bitte füllt dieses Feld aus.",
+    "emailError": "Bitte gebt eine gültige E-Mail-Adresse ein.",
+    "phoneError": "Bitte prüft die Telefonnummer.",
+    "bgColor": "#F1ECE1",
+    "headlineColor": "#1E3B30",
+    "accentColor": "#C89A6B",
+    "cardColor": "#E8E1D3",
+    "ruleColor": "#E8E1D3"
+  },
+  "navigation": {
+    "navItems": [
+      {
+        "label": "Unterstützung",
+        "href": "#unterstuetzung"
+      },
+      {
+        "label": "Aus der Praxis",
+        "href": "#praxis"
+      },
+      {
+        "label": "Über uns",
+        "href": "#ueber-uns"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "bgColor": "#F1ECE1",
+    "borderColor": "#E8E1D3",
+    "accentColor": "#C89A6B",
+    "sticky": true,
+    "markActiveSection": true,
+    "fullHeight": false,
+    "brandText": "eXtrameile",
+    "brandHref": "#top",
+    "showMark": true,
+    "ctaLabel": "Gespräch vereinbaren",
+    "ctaHref": "#kontakt"
+  },
+  "ueber-uns": {
+    "marker": "05 · Über uns",
+    "headline": "Euer Auftrag bewegt uns.",
+    "motifLabel": "Die zweite Meile",
+    "anchorId": "ueber-uns",
+    "fullHeight": false,
+    "leadParagraphs": [
+      {
+        "text": "Gemeinden schaffen Raum für Glauben, Hoffnung und Gemeinschaft. Menschen dürfen ankommen, Fragen stellen und Jesus kennenlernen."
+      },
+      {
+        "text": "Dahinter stehen Mitarbeitende und Ehrenamtliche, die viel geben. Sie bereiten Gottesdienste vor, begleiten Menschen und organisieren das Gemeindeleben."
+      }
+    ],
+    "leadHighlight": "Mit eXtrameile möchten wir diese Arbeit stärken.",
+    "blocks": [
+      {
+        "title": "Warum eXtrameile?",
+        "text": "Unser Name greift das biblische Bild der zweiten Meile auf. Für uns bedeutet das: aufmerksam sein, Verantwortung übernehmen und weiterdenken. Wenn wir eine Veranstaltung bewerben, schauen wir auch darauf, ob Interessierte alle Informationen finden. Wenn wir Vorlagen entwickeln, sollen eure Mitarbeitenden damit gut arbeiten können."
+      },
+      {
+        "title": "Glaube ist unser Antrieb.",
+        "text": "Wir wünschen uns, dass Menschen Jesus kennenlernen und Gemeinschaft finden. Digitale Kommunikation kann dafür Türen öffnen. Ein Gedanke aus einer Predigt erreicht jemanden mitten im Alltag. Eine Einladung macht Mut, einen Glaubenskurs zu besuchen. Eine verständliche Website nimmt Unsicherheit vor dem ersten Gemeindebesuch."
+      }
+    ],
+    "closingLine": "Wir hören zu, erklären verständlich und packen mit an.",
+    "ctaLabel": "Gespräch vereinbaren",
+    "ctaHref": "#kontakt",
+    "bgColor": "#E8E1D3",
+    "headlineColor": "#1E3B30",
+    "accentColor": "#C89A6B",
+    "ruleColor": "#F1ECE1",
+    "showMotif": true
+  },
+  "unterstuetzung": {
+    "marker": "02 · Unterstützung",
+    "headline": "Wobei wir euch unterstützen",
+    "intro": "Gemeinsam wählen wir die Schwerpunkte, die zu euren Zielen und eurem Stundenrahmen passen.",
+    "anchorId": "unterstuetzung",
+    "openFirst": true,
+    "fullHeight": false,
+    "services": [
+      {
+        "number": "01",
+        "title": "Social Media und Predigtinhalte",
+        "lead": "Eure Botschaft kann Menschen auch unter der Woche begleiten.",
+        "body": "In Predigten, persönlichen Geschichten und eurem Gemeindeleben stecken Inhalte, die Menschen ansprechen. Wir helfen euch bei der Auswahl und bereiten daraus passende Beiträge vor: kurze Videos aus vorhandenen Predigtaufnahmen, Texte, Titel und Beschreibungen, Veranstaltungsankündigungen und einen Redaktionsplan für die nächsten Wochen."
+      },
+      {
+        "number": "02",
+        "title": "Veranstaltungen und Glaubenskurse",
+        "lead": "Macht eure Einladung über den Gemeindekreis hinaus bekannt.",
+        "body": "Wir unterstützen euch dabei, Menschen in eurer Umgebung anzusprechen. Dafür stimmen wir Botschaft, Inhalte und Einladungswege aufeinander ab. Das kann die Bewerbung eines Alpha Kurses, einer Veranstaltungsreihe oder eines besonderen Gottesdienstes sein."
+      },
+      {
+        "number": "03",
+        "title": "Website und Anmeldeseiten",
+        "lead": "Interessierten den nächsten Schritt leicht machen.",
+        "body": "Wir aktualisieren bestehende Seiten, überarbeiten Texte und bereiten Informationen zu euren Angeboten auf. Neue Websites und umfangreichere Anmeldestrecken planen wir als eigenes Vorhaben mit euch."
+      },
+      {
+        "number": "04",
+        "title": "Gestaltung und Vorlagen",
+        "lead": "Gute Grundlagen für Aufgaben, die immer wiederkommen.",
+        "body": "Wir entwickeln abgestimmte Vorlagen für Gottesdienste, Reihen und Veranstaltungen. So kann euer Team aktuelle Inhalte einsetzen und auf einer gemeinsamen Gestaltung aufbauen. Das spart Vorbereitungszeit und macht eure Kommunikation wiedererkennbar."
+      },
+      {
+        "number": "05",
+        "title": "KI und digitale Abläufe",
+        "lead": "Weniger Handgriffe bei wiederkehrenden Aufgaben.",
+        "body": "Wir schauen mit euch, wo digitale Werkzeuge konkret helfen können. Zum Beispiel beim Schreiben und Planen, beim Aufbereiten vorhandener Inhalte oder bei Bestätigungen und Erinnerungen nach einer Anmeldung. Wir richten passende Hilfen ein und üben die Anwendung mit eurem Team anhand eurer eigenen Aufgaben."
+      }
+    ],
+    "toggleLabelClosed": "Mehr anzeigen",
+    "toggleLabelOpen": "Weniger anzeigen",
+    "ctaLabel": "Unterstützung besprechen",
+    "ctaHref": "#kontakt",
+    "bgColor": "#F1ECE1",
+    "headlineColor": "#1E3B30",
+    "accentColor": "#C89A6B",
+    "ruleColor": "#E8E1D3"
+  },
+  "zusammenarbeit": {
+    "marker": "06 · Zusammenarbeit",
+    "headline": "So beginnt die Zusammenarbeit",
+    "note": "Größere Vorhaben wie eine neue Website oder eine umfangreiche Kampagne planen wir gesondert mit euch.",
+    "ctaLabel": "Gespräch vereinbaren",
+    "ctaHref": "#kontakt",
+    "anchorId": "ablauf",
+    "fullHeight": false,
+    "stages": [
+      {
+        "number": "01",
+        "title": "Kennenlernen",
+        "text": "Wir sprechen über eure Gemeinde, eure Ziele und die Aufgaben, bei denen Unterstützung fehlt."
+      },
+      {
+        "number": "02",
+        "title": "Rahmen vereinbaren",
+        "text": "Wir legen Schwerpunkte, Stundenumfang, Kosten und Abstimmung fest."
+      },
+      {
+        "number": "03",
+        "title": "Gemeinsam starten",
+        "text": "Ihr stellt Informationen bereit und gebt Inhalte frei. Wir übernehmen die vereinbarte Vorbereitung und Umsetzung."
+      },
+      {
+        "number": "04",
+        "title": "Dranbleiben",
+        "text": "Wir besprechen regelmäßig, was ansteht, was hilfreich war und welche Prioritäten sich verändern."
+      }
+    ],
+    "bgColor": "#F1ECE1",
+    "headlineColor": "#1E3B30",
+    "accentColor": "#C89A6B",
+    "ruleColor": "#E8E1D3"
+  }
+}
